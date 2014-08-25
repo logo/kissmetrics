@@ -1,18 +1,2 @@
-
-/**
- * KISSmetrics
- */
-
-.logo[data-logo="KISSmetrics"] {
-  width: 5.026729914em;
-  /* (530/67.46) * (1-.125-.225) - .08 */
-}
-
-.logo[data-logo="KISSmetrics"] > * {
-  background-image: url(images/logo.svg);
-  margin: .125em 0 .225em -.08em;
-}
-
-.logo[data-logo="KISSmetrics"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
+@import 'logo/logo';
+@import './style';
